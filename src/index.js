@@ -1,7 +1,7 @@
 
 
 function buttonClick(){
-    let audio = new Audio("../sound/game-start.mp3");
+    let audio = new Audio("./sound/game-start.mp3");
     audio.play();
     let heading = $('.title');
     heading.css('animation','none');
