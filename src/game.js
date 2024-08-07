@@ -87,7 +87,6 @@ function nextCurrent(){
     if (current[0]>10 || current[0]<1 || current[1]>10 || current[1]<1){
         gameOver();
     }
-    console.log("new head", current);
     nextTile();
 }
 
@@ -148,7 +147,6 @@ function removeCurrent(value){
 function gameOver(){
     clearInterval(timer);
     over.play();
-    console.log('Game Over');
     music.pause();
     $('main').empty();
     $('main').removeClass('grid');
