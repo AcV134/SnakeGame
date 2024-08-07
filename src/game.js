@@ -35,10 +35,10 @@ let snake = [];
 
 // sound directory
 let audio = {
-    'game-over': '../sound/game-over.mp3',
-    'music': '../sound/music-for-game.mp3',
-    'apple': '../sound/apple.mp3',
-    'countdown': '../sound/game-countdown.mp3'
+    'game-over': './sound/game-over.mp3',
+    'music': './sound/music-for-game.mp3',
+    'apple': './sound/apple.mp3',
+    'countdown': './sound/game-countdown.mp3'
 }
 
 let music = new Audio(audio['music']);
