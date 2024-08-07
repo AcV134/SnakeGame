@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@500&family=Honk&family=Platypi:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="grid">
+        <div class="tile r1 c1">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r2 c1">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r3 c1">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r4 c1">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r5 c1">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r6 c1">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r7 c1">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r8 c1">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r9 c1">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r10 c1">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r1 c2">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r2 c2">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r3 c2">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r4 c2">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r5 c2">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r6 c2">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r7 c2">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r8 c2">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r9 c2">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r10 c2">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r1 c3">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r2 c3">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r3 c3">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r4 c3">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r5 c3">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r6 c3">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r7 c3">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r8 c3">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r9 c3">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r10 c3">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r1 c4">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r2 c4">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r3 c4">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r4 c4">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r5 c4">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r6 c4">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r7 c4">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r8 c4">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r9 c4">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r10 c4">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r1 c5">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r2 c5">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r3 c5">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r4 c5">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r5 c5">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r6 c5">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r7 c5">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r8 c5">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r9 c5">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r10 c5">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r1 c6">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r2 c6">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r3 c6">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r4 c6">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r5 c6">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r6 c6">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r7 c6">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r8 c6">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r9 c6">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r10 c6">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r1 c7">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r2 c7">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r3 c7">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r4 c7">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r5 c7">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r6 c7">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r7 c7">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r8 c7">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r9 c7">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r10 c7">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r1 c8">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r2 c8">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r3 c8">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r4 c8">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r5 c8">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r6 c8">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r7 c8">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r8 c8">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r9 c8">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r10 c8">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r1 c9">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r2 c9">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r3 c9">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r4 c9">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r5 c9">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r6 c9">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r7 c9">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r8 c9">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r9 c9">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r10 c9">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r1 c10">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r2 c10">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r3 c10">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r4 c10">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r5 c10">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r6 c10">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r7 c10">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r8 c10">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r9 c10">
+            <div class="contain"></div>
+        </div>
+        <div class="tile r10 c10">
+            <div class="contain"></div>
+        </div>
+    </main>
+
+    <div class="instructions">
+        <h1>Instructions</h1>
+        <p>Use the arrow keys to move the snake</p>
+        <p>Collect the food to grow the snake</p>
+        <p>Don't run into the walls or yourself</p>
+        <p> Press any Arrow key to Start...</p>
+    </div>
+
+    <script src="src/game.js"></script>
+</body>
+</html>
